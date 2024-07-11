@@ -1,8 +1,8 @@
 package poly.ex.pay0;
 
-import javax.print.DocFlavor;
-
 public class PayService {
+    // 결제를 진행하는 핵심 로직
+
     public void processPay(String option, int amount) {
         boolean result;
 
